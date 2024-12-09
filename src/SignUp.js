@@ -42,7 +42,6 @@ const SignUp = () => {
             <input className="form-control" type="password" name="passowrd" required />
             <div className="footer">
                 <span>vous avez deja un compte ? <a href=' ' onClick={() => navigate("/signin")}> Click here!</a> </span>
-             
             </div>
             <button type="submit" className="btn-primary">Sign Up</button>
 

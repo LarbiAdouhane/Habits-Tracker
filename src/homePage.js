@@ -7,19 +7,36 @@ function HomePage() {
 
   return (
     <div className="containerr">
-      <h2 className="title">
-        <span style={{ color: "black" }}>Welcome to </span>
-        <span style={{ color: "rgb(55,45,167)" }}>Digital Habit Trackers</span>
-      </h2>
-      <p className="paragraph">
-        Habit tracker digital est une application innovante...
-      </p>
-      <button className="btn-primary" onClick={() => navigate("/signin")}>
-        Sign In
-      </button>
-      <button className="btn-primary" onClick={() => navigate("/signup")}>
-        Sign Up
-      </button>
+      <nav>
+        <div className="logo">
+          <h1> <span style={{color:'white'}}>Habit</span>  Tracker</h1>
+        </div>
+        <div>
+          <ul className="nav-options">
+            <a href=""><li></li>home</a>
+            <a href=""><li></li>about</a>
+            <a href=""><li></li>contact</a>
+            <a href=""><li></li>updates</a>
+          </ul>
+        </div>
+        <div className="auth">
+          <button className="btn-primary" onClick={() => navigate("/signin")}>
+            Sign In
+          </button>
+          <button className="btn-primary" onClick={() => navigate("/signup")}>
+            Sign Up
+          </button>
+        </div>
+
+      </nav>
+
+      <div className="hero">
+        <h2 className="title">
+          <span style={{ color: "white" }}>Welcome to </span>
+          <span style={{ color: "black" }}>Digital Habit Trackers</span>
+        </h2>
+      </div>
+
     </div>
   );
 }

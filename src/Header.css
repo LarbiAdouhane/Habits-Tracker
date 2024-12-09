@@ -103,6 +103,7 @@ label {
 
 }
 
+
 .gray {
     background: rgb(245, 235, 219);
     color: rgb(143, 142, 142);
@@ -118,4 +119,5 @@ label {
     .form-control {
         max-width: 60%;
     }
+  
 }
