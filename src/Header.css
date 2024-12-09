@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    min-width: ;
     background: linear-gradient(rgb(0, 98, 255), rgb(78, 183, 248), rgb(237, 235, 235));
 }
 
@@ -104,4 +104,12 @@ label {
 .gray {
     background: rgb(245, 235, 219);
     color: rgb(143, 142, 142);
+}
+@media (max-width: 1074px) {
+    .formss {
+        min-width: 100%;
+    }
+    .form-control {
+        width: auto;
+    }
 }
