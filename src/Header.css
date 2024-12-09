@@ -109,6 +109,10 @@ label {
 @media (max-width: 1074px) {
     .formss {
         min-width: 85%;
+        height: 70vh;
+    }
+    .CONTAINER{
+        height: 100vh;
     }
     .form-control {
         max-width: 60%;
