@@ -108,9 +108,6 @@ label {
     .CONTAINER{
         height: 100vh;
     }
-    .form-control {
-        max-width: 60%;
-    }
   
 }
 
