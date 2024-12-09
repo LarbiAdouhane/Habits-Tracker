@@ -1,0 +1,107 @@
+.formss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    min-width: 40%;
+    max-width: 40%;
+    border-radius: 40px;
+    border-color: black;
+    background: linear-gradient(rgb(255, 255, 255), rgb(237, 235, 235));
+    height: 84vh;
+    margin: 30px auto;
+
+}
+
+.CONTAINER {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(rgb(0, 98, 255), rgb(78, 183, 248), rgb(237, 235, 235));
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn-primary {
+    background: rgb(14, 63, 123);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: rgb(31, 26, 168);
+}
+
+.btn1 {
+    background: white;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 153, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background: white;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 76, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(161, 162, 162);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+
+
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 360px;
+
+
+
+}
+
+label {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+.gray {
+    background: rgb(245, 235, 219);
+    color: rgb(143, 142, 142);
+}
