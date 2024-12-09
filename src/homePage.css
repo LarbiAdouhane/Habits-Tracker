@@ -13,11 +13,13 @@
 
 .title {
     margin-top: 0px;
-
-
     text-align: center;
     font-Size: 2rem;
     color: #000000;
+}
+
+.logo a{
+    text-decoration: none;
 }
 
 .paragraph {

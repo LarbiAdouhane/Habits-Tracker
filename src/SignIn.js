@@ -39,7 +39,7 @@ const SignIn = () => {
             <label for="passowrd">Passowrd :</label>
             <input className="form-control" type="passowrd" name="passowrd" required />
             <div className="footer">
-              <span>Forgot passowrd ?  <a href="#about"> Click here!</a></span>
+              <span>Forgot passowrd ?  <a href=" " onClick={() => navigate("/forgot-password")}> Click here!</a></span>
             </div>
             <button type="submit" className="btn-primary" onClick={() => navigate("/signup")}>Sign In</button>
 

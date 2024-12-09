@@ -9,7 +9,7 @@ function HomePage() {
     <div className="containerr">
       <nav>
         <div className="logo">
-          <h1> <span style={{color:'white'}}>Habit</span>  Tracker</h1>
+          <a onClick={() => navigate("/")} href=""><h1> <span style={{color:'white'}}>Habit</span> <span style={{color:'black'}}>Tracker</span></h1></a>
         </div>
         <div>
           <ul className="nav-options">
