@@ -33,13 +33,13 @@ const SignUp = () => {
 
         </div>
         <div>
-          <form action="" method='post'>
+          <form action="">
             <label for="name">Name :</label>
             <input className="form-control" type="name" name="name" required />
             <label for="email">Email :</label>
             <input className="form-control" type="email" name="email" required />
-            <label for="passowrd">Password :</label>
-            <input className="form-control" type="password" name="passowrd" required />
+            <label for="passowrd">Passowrd :</label>
+            <input className="form-control" type="passowrd" name="passowrd" required />
             <div className="footer">
                 <span>vous avez deja un compte ? <a href=' ' onClick={() => navigate("/signin")}> Click here!</a> </span>
              
