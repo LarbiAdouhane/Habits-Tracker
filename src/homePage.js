@@ -15,7 +15,7 @@ function HomePage() {
           <ul className="nav-options">
             <a href=""><li></li>home</a>
             <a href=""><li></li>about</a>
-            <a href=""><li></li>contact</a>
+            <a href=""><li></li>contact</a> 
             <a href=""><li></li>updates</a>
           </ul>
         </div>

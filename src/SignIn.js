@@ -26,13 +26,15 @@ const SignIn = () => {
       <div className="formss">
         <h2>JOIN US NOW</h2>
         <div className="button">
+
           <button className="btn1" style={buttonStyle} >
             <FaGoogle style={iconStyle} />
             Sign in with Google
           </button>
-        
+
         </div>
-        <div>
+
+
           <form action="">
             <label for="email">Email :</label>
             <input className="form-control" type="email" name="email" required />
@@ -42,8 +44,9 @@ const SignIn = () => {
               <span>Forgot passowrd ?  <a href=" " onClick={() => navigate("/forgot-password")}> Click here!</a></span>
             </div>
             <button type="submit" className="btn-primary" onClick={() => navigate("/signup")}>Sign In</button>
+          </form>
 
-          </form></div>
+
       </div>
     </div>
 
