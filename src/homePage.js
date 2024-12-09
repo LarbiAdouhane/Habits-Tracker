@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div className="containerr">
       <h2 className="title">
-        <span style={{ color: "white" }}>Welcome to </span>
+        <span style={{ color: "black" }}>Welcome to </span>
         <span style={{ color: "rgb(55,45,167)" }}>Digital Habit Trackers</span>
       </h2>
       <p className="paragraph">
