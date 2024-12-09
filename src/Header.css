@@ -14,12 +14,9 @@
 
 form {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     gap: 10px;
     margin-top: 40px;
-    text-align: start;
 }
 
 .CONTAINER {
@@ -31,13 +28,10 @@ form {
 }
 
 .button {
-    display: flex;
     gap: 10px;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .btn-primary {
@@ -62,14 +56,6 @@ form {
     cursor: pointer;
 }
 
-.btn2 {
-    background: white;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(0, 76, 255);
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 .btn:hover {
     background: rgb(161, 162, 162);
@@ -80,8 +66,6 @@ form {
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
-    width: 360px;
-
 }
 
 label {
@@ -96,7 +80,6 @@ label {
     justify-content: center;
     align-items: center;
     width: 380px;
-
 }
 
 
@@ -104,16 +87,13 @@ label {
     background: rgb(245, 235, 219);
     color: rgb(143, 142, 142);
 }
-@media (max-width: 1074px) {
+@media (max-width: 1080px) {
     .formss {
-        min-width: 85%;
+        min-width: 94%;
         height: 70vh;
     }
     .CONTAINER{
         height: 100vh;
-    }
-    .form-control {
-        max-width: 60%;
     }
   
 }
