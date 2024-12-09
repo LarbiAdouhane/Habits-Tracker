@@ -28,6 +28,7 @@ form {
     align-items: center;
     justify-content: center;
     background: linear-gradient(rgb(0, 98, 255), rgb(78, 183, 248), rgb(237, 235, 235));
+    height: 100vh;
 }
 
 .button {
